@@ -1,5 +1,5 @@
 # ManipulateFileAttributes
-A Driver to Manipulate Executable Attributes such as CreationTime, LastAccessTime, LastWriteTime, ChangeTime using a runtime driver.
+A Driver to Manipulate (Running) Executable Attributes such as CreationTime, LastAccessTime, LastWriteTime, ChangeTime using a runtime driver.
 ```cpp
 NTSTATUS ManipulateFileAttributes(PUNICODE_STRING FileName) {
     OBJECT_ATTRIBUTES objAttr;
