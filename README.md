@@ -25,3 +25,4 @@ NTSTATUS ManipulateFileAttributes(PUNICODE_STRING FileName) {
     return status;
 }
 ```
+Tbh I have no clue what the use-case for this would be but I thought it would be a cool release.
